@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 1</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div>
+    
+<div id="navbar">
+    <ul>
+        <li style="float:left; padding:0px"><a href="https://developers.google.com/groups/start/" target="_blank" style="padding:0px">
+            <img src="https://developers.google.com/_static/6db4302793/images/GDG-program-logo.png" style="border: 0; float: left;" />
+        </a>
+        </li>
+        
+    <div id="right_menu">   
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#Contact">Contact Us</a></li>
+        <li><a href="index.html#About">About US</a></li>
+        <li><a href="#">Gallery</a></li>
+    </div>  
+    </ul>
+</div>
+<div class="container">
+    <h1 class="welcome textCenter">Welcome to <br> GDG JIIT NOIDA</h1>
+        <div class="card card-container">
+        <h2 class='login_title textCenter'>Login</h2>
+        <hr>
+
+            <form class="form-signin">
+                
+                <p class="input_title">Email</p>
+                <input type="text" id="inputEmail" class="login_box" placeholder="abc@mail.com" required autofocus>
+                <p class="input_title">Password</p>
+                <input type="password" id="inputPassword" class="login_box" placeholder="******" required>
+               
+                <input type="submit" name="" id="" value="LOGIN" class="btn btn-signin">
+            </form><!-- /form -->
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+
+</div></body>
+<style type="text/css">
+    
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+background: rgba(170,230,250,0.85); 
+}
+
+.login_box{
+    background:#f7f7f7;
+    border:3px solid #F4F4F4;
+    padding-left: 15px;
+    margin-bottom:25px;
+    }
+
+.input_title{
+    color:rgba(164, 164, 164, 0.9);
+    padding-left:3px;
+        margin-bottom: 2px;
+    }
+
+hr{
+    width:100%;
+}
+    
+.welcome{
+    font-family: "myriad-pro",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:#1F618D;
+    margin-bottom:25px;
+    margin-top:50px;
+
+}
+
+.login_title{
+    font-family: "myriad-pro",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color:teal;
+
+}
+
+.card-container.card {
+    max-width: 350px;
+
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    border-radius:0;
+    background:#43A6EB;
+    height: 55px;
+    margin-bottom:10px;
+    font-size: 18px;
+    color: white;
+    border:1px solid #43A6EB;
+    padding:10px 146px;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #FFFFFF;
+    /* just in case there no content*/
+    padding: 1px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 15%x;
+
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+  
+}
+
+.btn-signin:hover,
+.btn-signin:active,
+.btn-signin:focus {
+    background-color: #2E86C1;
+}
+
+</style>
+</html>

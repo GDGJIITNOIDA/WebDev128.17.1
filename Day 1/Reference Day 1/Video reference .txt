@@ -1,0 +1,13 @@
+VERY VERY IMP:
+	Please go through with these 4 videos if you have any doubt regarding Css.
+
+https://www.youtube.com/playlist?list=PLkFhPhy7NfcyX6HXrwSldITnuxzcMQzqA      <==== link to playlist
+
+1. Basic Css Selectors	                https://www.youtube.com/watch?v=GI3ElZsewAs
+	
+2. Introduction to Chrome inspect	https://www.youtube.com/watch?v=pvT5eZEcOsg
+
+3. Advance Css Selectors 		https://www.youtube.com/watch?v=-E3qQYHcKz0
+	
+4. Specificity of CSS selectors         https://www.youtube.com/watch?v=zX89XnsuBek
+

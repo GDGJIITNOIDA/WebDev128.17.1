@@ -1,0 +1,85 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+#MainPage{
+	background-color: #74AFAD;
+	padding-top:90px;	
+	padding-bottom:90px;	
+	color: #2B2B2B;
+}
+
+#About{
+	background-color: #ccc;
+	padding-top:20px;	
+	padding-bottom:90px;
+
+}
+#About h1{
+	color:crimson;
+}
+
+#About ul{
+	padding-top:30px;
+}
+
+#About h3{
+	text-decoration: underline;
+}
+#About p{
+	margin-top: -11px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.container{
+	width:80%;
+	margin:0 auto;
+}
+
+#Contact{
+	background:#353a40;	
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#Contact h1{
+	 text-align: center;
+	 color: white; 
+}
+
+table {
+  border-collapse: separate;
+  background:#fff;
+  margin:20px auto;
+
+}
+
+thead th {
+  font-size:16px;
+  font-weight:400;
+  color:#fff;
+  text-align:left;
+  padding:20px;
+  background-color:grey;
+}
+
+tbody tr td {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  color:#5f6062;
+  font-size:13px;
+  padding:20px 20px 20px 20px;
+  border-bottom:1px solid #e0e0e0;
+  
+}
+
+tbody tr:nth-child(2n) {
+  background:#f0f3f5;
+}
+
